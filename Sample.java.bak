@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class Sample 
+{
+	public static void main(String[] args) 
+	{
+		Scanner Sc= new Scanner(System.in);
+		System.out.println("Enter the Star no=");
+		int num1 = Sc.nextInt();
+		System.out.println("Enter the End no=");
+		int num2 = Sc.nextInt();
+		
+		int sum=0;
+		int digi=1;
+		for(int i =num1; i<= num2 ;i++)
+		{
+			for(int j= 1; j<=num2;j++)
+			{
+				if(j*j*j==i)
+			System.out.print(" "+j);
+			}
+			 
+		}
+		//System.out.println("Not a perfect sq.");
+		// System.out.println("Sum "+sum);
+		 
+		
+	}
+}

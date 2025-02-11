@@ -1,0 +1,85 @@
+import java.util.Scanner;
+class NumberToword 
+{
+	public static void main(String[] args) 
+	{
+		Scanner Sc= new Scanner(System.in);
+		System.out.println("Enter the number for conversion=");
+		int num= Sc.nextInt();
+		while(num>0)
+		{
+			int rem = num%10;
+			
+		switch(num)
+		{
+			case1:
+			{
+				if(rem==0)
+				 System.out.println("Zero");
+				 break;
+			}
+			case2:
+			{
+				if(rem==2)
+				 System.out.println("one");
+				 break;
+			}
+			case3:
+			{
+				if(rem==3)
+				 System.out.println("Two");
+				 break;
+			}
+			case4:
+			{
+				if(rem==4)
+				 System.out.println("Three");
+				 break;
+			}
+			case5:
+			{
+				if(rem==5)
+				 System.out.println("Four");
+				 break;
+			}
+			case6:
+			{
+				if(rem==6)
+				 System.out.println("Five");
+				 break;
+			}
+			case7:
+			{
+				if(rem==7)
+				 System.out.println("Six");
+				 break;
+			}
+			case1:
+			{
+				if(rem==1)
+				 System.out.println("Seven");
+				 break;
+			}
+			case8:
+			{
+				if(rem==8)
+				 System.out.println("Eight");
+				 break;
+			}
+			case9:
+			{
+				if(rem==9)
+				 System.out.println("Ninet");
+				 break;
+			}
+			case10:
+			{
+				if(rem==10)
+				 System.out.println("Nine");
+				 break;
+			}
+			num=num/10;
+		}
+		}
+	}
+}
